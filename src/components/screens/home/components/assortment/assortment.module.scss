@@ -1,0 +1,70 @@
+.shop{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+.shop_left{
+
+    width: 25px;
+    height: 1950px;
+    background-image: url("../../../../../../public/images/assortment/left_side.png");
+    background-repeat: repeat-y;
+    background-position: right;
+    object-fit: cover;
+}
+.shop_right{
+
+    width: 25px;
+    height: 1950px;
+    background-image: url("../../../../../../public/images/assortment/right_side.png");
+    background-repeat: repeat-y;
+    background-position: left;
+    object-fit: cover;
+}
+.shop_header{
+
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    font-size: 32px;
+
+}
+.shop_hoodie_container{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
+.shop_center_header{
+
+    width: 100%;
+    height: 100px;
+    background-image: url("../../../../../../public/images/assortment/header.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    
+}
+.shop_center_showcase{
+
+    width: 1200px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

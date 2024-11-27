@@ -1,0 +1,23 @@
+.card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: auto;
+
+}
+.card_img{
+
+    border: solid 2px #fff;
+    border-radius: 0% 20% 0% 20%;
+    width: auto;
+
+}
+.card_txt{
+
+    width: auto;
+
+}

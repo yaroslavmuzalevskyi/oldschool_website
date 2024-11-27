@@ -1,0 +1,24 @@
+.nav_item {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none; 
+    position: relative; 
+    display: inline-block; 
+}
+
+.nav_item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #fff; 
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav_item:hover::after {
+    visibility: visible;
+    width: 100%;
+}

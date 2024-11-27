@@ -1,0 +1,48 @@
+.commodity{
+
+    width: 1200px;
+    height: auto;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+
+}
+.commodity_right{
+
+    width: auto;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.commodity_right_header{
+
+    width: auto;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #fff;
+    background-image: url("../../../../public/images/item/header.png");
+    background-position: center;
+    background-size: cover;
+
+}
+.commodity_right_desc{
+
+    width: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 80px;
+    padding-left: 25px;
+
+}
+.purschase{
+
+    color: #fff;
+
+}

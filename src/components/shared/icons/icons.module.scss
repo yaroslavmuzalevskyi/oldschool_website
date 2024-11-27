@@ -1,0 +1,43 @@
+.fa{
+
+    color: #fff;
+    cursor: pointer;
+    font-size: 32px;
+
+}
+.icons_container{
+
+display: flex;
+justify-content: space-between;
+width: 150px;
+
+}
+@media (max-width: 980px){
+
+.icons_container{
+
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+}
+.fa{
+
+    font-size: 28px;
+
+}   
+
+}
+@media (max-width: 768px){
+
+.icons_container{
+
+    margin-top: 24px;
+    width: 100px;
+}
+.fa{
+
+    font-size: 20px;
+
+}   
+
+}

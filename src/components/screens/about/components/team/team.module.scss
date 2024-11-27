@@ -1,0 +1,38 @@
+.container_bg{
+
+    width: 100%;
+    height: 700px;
+    background-image: url("../../../../../../public/images/about/bg2.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+
+    width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.container > h1{
+
+    font-size: 48px;
+
+}
+.card_container{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+
+}

@@ -1,0 +1,20 @@
+.container{
+
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #fff;
+    background-image: url("../../../../../../public/images/item/collection-bg.png");
+    background-position: center;
+    background-size: contain;
+
+
+}
+.container_img{
+
+    width: 70%;
+    height: 70%;
+
+}

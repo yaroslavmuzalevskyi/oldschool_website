@@ -1,0 +1,67 @@
+.button_main{
+
+    padding: 15px 35px;
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in-out 0.2s;
+
+    &:hover {
+        color: #000;
+        background-color: #fff;
+        transition: ease-in-out 0.2s;
+    }
+}
+.button_form{
+
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #aaa;
+    border: solid 1px #aaa;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in-out 0.2s;
+
+    &:hover {
+        color: #000;
+        border: solid 1px #000;
+        transition: ease-in-out 0.2s;
+    }
+
+}
+.button_card_black{
+
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #000;
+    border: solid 1px #000;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in-out 0.2s;
+
+    &:hover {
+        color: #fff;
+        background-color: #000;
+        transition: ease-in-out 0.2s;
+    }
+
+}
+.button_card_white{
+
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #fff;
+    cursor: pointer;
+    outline: none;
+    transition: ease-in-out 0.2s;
+
+    &:hover {
+        color: #000;
+        background-color: #fff;
+        transition: ease-in-out 0.2s;
+    }
+
+}

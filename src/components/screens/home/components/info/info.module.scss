@@ -1,0 +1,37 @@
+
+.info_bg{
+
+    width: 100%;
+    height: auto;
+    background-image: url("../../../../../public/images/info/info_bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info_container{
+
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.info_image{
+
+    width: 500px;
+    height: auto;
+
+}
+.info_text{
+
+    width: 600px;
+    height: 350px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+
+}
